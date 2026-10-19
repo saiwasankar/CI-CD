@@ -22,7 +22,7 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(
     title="BAPPS - Biometric Aviation Passenger Processing System",
-    version="1.0.0",
+    version="1.0.1",
     description=(
         "Backend prototype for automated e-gate passenger processing. Pipeline: "
         "1) scan documents, 2) liveness + face match (3 attempts max), "
